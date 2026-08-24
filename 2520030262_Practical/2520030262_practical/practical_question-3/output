@@ -1,1 +1,9 @@
-
+sahithi@SahithiPaloji:~$ nano pracques-3.c
+sahithi@SahithiPaloji:~$ gcc pracques-3.c
+sahithi@SahithiPaloji:~$ ./a.out
+parent process ID: 1347
+parent's parent ID; 1347
+parent process is running
+child process ID: 1348
+child's parent ID: 1348
+child process is running
