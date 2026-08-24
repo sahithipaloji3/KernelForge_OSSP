@@ -1,0 +1,10 @@
+myshell> /home/haima_hasini/KernelForge_OSSP
+myshell> 2520030228_Practical
+2520030228_Skill
+2520030242_Practical
+2520030242_Skill
+2520030262_Practical
+2520030262_Skill
+ForgeOS
+README.md
+myshell> Goodbye!
