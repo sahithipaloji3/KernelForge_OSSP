@@ -1,1 +1,19 @@
-
+#include<stdio.h>
+#include<unistd.h>
+int main()
+{
+int p=fork();
+if(p>0)
+{
+printf("parent PID = %d\n", getpid());
+printf("parent's PID = %d\n", getppid());
+printf("parent process is active\n");
+}
+else if(p==0)
+{
+printf("child PID = %d\n", getpid());
+printf("child's parent PID = %d\n", getppid());
+printf("child process is active\n");
+}
+return 0;
+}
