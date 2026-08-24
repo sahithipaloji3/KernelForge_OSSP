@@ -1,0 +1,9 @@
+=== Custom Keyboard Input & Buffer Test ===
+Type commands (Backspace works, press Enter to submit, type 'quit' to exit):
+input> status
+[Buffer Submitted]: status
+input> test command
+[Buffer Submitted]: test command
+input> quit
+[Buffer Submitted]: quit
+Exiting handler...
