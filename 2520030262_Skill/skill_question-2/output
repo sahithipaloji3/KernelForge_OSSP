@@ -1,1 +1,5 @@
-
+sahithi@SahithiPaloji:~$ nano skillques-2.c
+sahithi@SahithiPaloji:~$ gcc skillques-2.c
+sahithi@SahithiPaloji:~$ ./a.out
+shell> q
+quit
