@@ -1,0 +1,7 @@
+===== File Copy Execution =====
+File copied successfully.
+OSSP File Copy Test Content
+
+===== strace cat sample.txt =====
+Command 'strace' not found, but can be installed with:
+sudo apt install strace

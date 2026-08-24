@@ -1,0 +1,24 @@
+===== Process State Program Execution =====
+[Child] PID: 1380, PPID: 1379 | State: RUNNING
+[Child] Sleeping for 2 seconds (Entering WAITING state)...
+[Child] Woke up. Exiting (TERMINATED state).
+[Parent] PID: 1379, Child PID: 1380 | State: RUNNING
+[Parent] Waiting for child...
+[Parent] Child collected. Parent exiting.
+
+===== Current Process Status (ps) =====
+    PID    PPID STAT COMMAND
+    330     329 Ss   bash
+   1381     330 R+   ps
+
+===== Inspection via /proc =====
+Name:	bash
+Umask:	0022
+State:	S (sleeping)
+Tgid:	330
+Ngid:	0
+Pid:	330
+PPid:	329
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
