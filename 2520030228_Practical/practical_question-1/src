@@ -1,1 +1,20 @@
-
+#include<stdio.h>
+#include<unistd.h>
+#include<sys/wait.h>
+int main() {
+char command[100];
+printf("enter linux command as input: ");
+scanf("%s" , command);
+int pid = fork();
+if(pid > 0) {
+printf("this is parent process %d\n", getpid());
+printf("this is child process %d\n", pid);
+wait(NULL);
+printf("child process completed\n");
+}
+if(pid == 0) {
+printf("this is child process %d\n", getpid());
+execlp(command, command, NULL);
+}
+return 0;
+}
