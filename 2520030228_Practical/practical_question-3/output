@@ -1,1 +1,9 @@
-
+haima_hasini@Haasini:~$ nano pracques-3.c
+haima_hasini@Haasini:~$ gcc pracques-3.c
+haima_hasini@Haasini:~$ ./a.out
+parent process ID: 682
+parent's parent ID; 682
+parent process is running
+child process ID: 683
+child's parent ID: 683
+child process is running
