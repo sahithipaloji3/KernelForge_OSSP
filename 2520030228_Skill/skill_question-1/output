@@ -1,1 +1,9 @@
-
+haima_hasini@Haasini:~$ nano skillques-1.c
+haima_hasini@Haasini:~$ gcc skillques-1.c
+haima_hasini@Haasini:~$ ./a.out
+parent PID = 782
+parent's PID = 294
+parent process is active
+child PID = 783
+child's parent PID = 293
+child process is active
