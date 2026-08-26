@@ -1,1 +1,9 @@
-
+haima_hasini@Haasini:~$ nano pracques-1.c
+haima_hasini@Haasini:~$ gcc pracques-1.c
+haima_hasini@Haasini:~$ ./a.out
+enter linux command as input: pwd
+this is parent process 485
+this is child process 488
+this is child process 488
+/home/haima_hasini
+child process completed
