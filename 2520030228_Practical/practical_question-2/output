@@ -1,1 +1,9 @@
-
+haima_hasini@Haasini:~$ nano pracques-2.c
+haima_hasini@Haasini:~$ gcc pracques-2.c
+haima_hasini@Haasini:~$ ./a.out
+this file has been copied succefully
+haima_hasini@Haasini:~$ cat a7
+nthis is my first class
+this is OS class
+I am in KLH
+My name is Hasini
