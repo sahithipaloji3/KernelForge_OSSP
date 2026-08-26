@@ -1,1 +1,20 @@
-
+#include<stdio.h>
+int main()
+{
+char input;
+int count=0;
+while(count<5)
+{
+printf("shell> ");
+input=getchar();
+if(input=='q')
+{
+printf("quit\n");
+break;
+}
+printf("the input was: %c\n", input);
+while(getchar()!='\n');
+count++;
+}
+return 0;
+}
