@@ -1,1 +1,19 @@
-
+#include<stdio.h>
+#include<unistd.h>
+int main()
+{
+int p=fork();
+if(p>0)
+{
+printf("parent process ID: %d\n", getpid());
+printf("parent's parent ID; %d\n", getpid());
+printf("parent process is running\n");
+}
+else if(p == 0)
+{
+printf("child process ID: %d\n", getpid());
+printf("child's parent ID: %d\n", getpid());
+printf("child process is running\n");
+}
+return 0;
+}
