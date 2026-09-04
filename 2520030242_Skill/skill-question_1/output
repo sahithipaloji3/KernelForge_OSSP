@@ -1,1 +1,10 @@
-
+suhani@siri:~$ nano skillques-1.c
+suhani@siri:~$ gcc skillques-1.c
+suhani@siri:~$ ./a.out
+parent PID = 522
+parent's PID = 331
+parent process is active
+child PID = 523
+child's parent PID = 522
+child process is active
+suhani@siri:~$
