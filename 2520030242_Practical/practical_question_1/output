@@ -1,1 +1,8 @@
-
+suhani@siri:~$ nano pracques-1.c
+suhani@siri:~$ gcc pracques-1.c
+suhani@siri:~$ ./a.out
+enter linux command as input: pwd
+this is parent process 672
+this is child process 673
+this is child process 673
+/home/suhani
