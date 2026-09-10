@@ -1,1 +1,65 @@
+a.
+haima_haasini@Haasini:~$ nano practicalquestion5.c
+haima_haasini@Haasini:~$ gcc practicalquestion5.c
+haima_haasini@Haasini:~$ ./a.out
+producer
+produced 10
+produced 20
+produced 30
+produced 40
+produced 50
+consumer
+consumed 10
+consumed 20
+consumed 30
+consumed 40
+consumed 50
+communication time is 0.000280
+communication efficiency 3571.428571
+communication efficiency 7142.857143
+communication efficiency 10714.285714
+communication efficiency 14285.714286
+communication efficiency 17857.142857
 
+b.
+haima_haasini@Haasini:~$ nano practicalquestion5partb.c
+haima_haasini@Haasini:~$ gcc practicalquestion5partb.c
+haima_haasini@Haasini:~$ ./a.out
+
+-rwxrwxrwx 1 haima_haasini haima_haasini   0 Jul 29 08:23 abc
+-rw-r--r-- 1 haima_haasini haima_haasini 141 Aug 12 08:01 exceex.c
+-rw-r--r-- 1 haima_haasini haima_haasini  49 Aug 12 08:02 exceex2.c
+-rw-r--r-- 1 haima_haasini haima_haasini  79 Jul 29 06:48 f1.c
+-rw-r--r-- 1 haima_haasini haima_haasini 129 Jul 29 07:07 f3.c
+-rw-r--r-- 1 haima_haasini haima_haasini 464 Aug  6 04:03 fork4.c
+-rw-r--r-- 1 haima_haasini haima_haasini 232 Aug  6 04:00 mvex.c
+-rw-r--r-- 1 haima_haasini haima_haasini 816 Aug 27 03:58 namedpipe1.c
+-rw-r--r-- 1 haima_haasini haima_haasini 138 Aug 27 03:58 namedpipe2.c
+-rw-r--r-- 1 haima_haasini haima_haasini 264 Jul 30 03:48 open1.c
+-rw-r--r-- 1 haima_haasini haima_haasini 205 Jul 30 04:23 open1.c.save
+-rw-r--r-- 1 haima_haasini haima_haasini 310 Aug  1 05:54 open3.c
+-rw-r--r-- 1 haima_haasini haima_haasini 250 Aug 12 08:13 pipe1.c
+-rw-r--r-- 1 haima_haasini haima_haasini 239 Aug 12 08:34 pipe11.c
+-rw-r--r-- 1 haima_haasini haima_haasini 217 Aug 12 05:26 pipeex1.c
+-rw-r--r-- 1 haima_haasini haima_haasini 272 Aug 12 05:37 pipeex2.c
+-rw-r--r-- 1 haima_haasini haima_haasini 439 Aug 24 16:11 pracques-1.c
+-rw-r--r-- 1 haima_haasini haima_haasini 277 Aug 24 16:17 pracques-2.c
+-rw-r--r-- 1 haima_haasini haima_haasini 365 Aug 24 16:28 pracques-3.c
+-rw-r--r-- 1 haima_haasini haima_haasini 757 Sep 10 03:14 practicalquestion4.c
+-rw-r--r-- 1 haima_haasini haima_haasini 323 Sep 10 03:14 practicalquestion4partb.c
+-rw-r--r-- 1 haima_haasini haima_haasini 745 Sep 10 03:21 practicalquestion5.c
+-rw-r--r-- 1 haima_haasini haima_haasini 221 Sep 10 03:22 practicalquestion5partb.c
+-rwxr-xr-x 1 haima_haasini haima_haasini 16128 Jul 27 15:16 process
+-rw-r--r-- 1 haima_haasini haima_haasini 383 Jul 27 15:16 process.c
+-rw-r--r-- 1 haima_haasini haima_haasini 1179 Sep  9 08:35 prodcons.c
+-rw-r--r-- 1 haima_haasini haima_haasini   0 Jul 29 08:32 public.txt
+-rw-r--r-- 1 haima_haasini haima_haasini  84 Aug  1 05:17 readwr.c
+-rw-r--r-- 1 haima_haasini haima_haasini  78 Aug 27 04:13 receiver.c
+-rw-r--r-- 1 haima_haasini haima_haasini 335 Aug 27 04:37 receiver.c.save
+-rw-r--r-- 1 haima_haasini haima_haasini 555 Aug 27 04:14 sender.c
+-rw-r--r-- 1 haima_haasini haima_haasini 348 Aug 24 16:43 skillques-1.c
+-rw-r--r-- 1 haima_haasini haima_haasini 238 Aug 24 16:51 skillques-2.c
+-rw-r--r-- 1 haima_haasini haima_haasini 855 Sep  9 05:35 waitex.c
+-rw-r--r-- 1 haima_haasini haima_haasini 304 Sep  9 05:57 zombie.c
+
+haima_haasini@Haasini:~$
