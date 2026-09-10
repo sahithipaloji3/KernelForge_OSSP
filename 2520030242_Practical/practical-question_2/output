@@ -1,1 +1,8 @@
-
+suhani@siri:~$ nano pracques-2.c
+suhani@siri:~$ gcc pracques-2.c
+suhani@siri:~$ ./a.out
+this file has been copied succefully
+suhani@siri:~$ cat a7
+this is my first class
+this is os class
+my name is xyz
