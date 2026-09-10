@@ -1,1 +1,13 @@
-
+sahithi@SahithiPaloji:~$ gcc prac_6a.c
+sahithi@SahithiPaloji:~$ ./a.out
+enter message: hi
+received: hi
+server: Message processed
+sahithi@SahithiPaloji:~$ gcc prac_6b.c
+sahithi@SahithiPaloji:~$ ./a.out
+Process ID = 1557
+Running
+Running
+Running
+Running
+^CSignal received
