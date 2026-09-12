@@ -37,7 +37,6 @@ wait(NULL);
 }
 
 b.
-GNU nano 8.7.1                                 prac_6b.c
 #include <stdio.h>
 #include <signal.h>
 #include <unistd.h>
