@@ -1,1 +1,16 @@
-
+haima_haasini@Haasini:~$ nano prac_6a.c
+haima_haasini@Haasini:~$ gcc prac_6a.c
+haima_haasini@Haasini:~$ ./a.out
+enter message: hi
+a
+received: hi
+server: Message processed
+haima_haasini@Haasini:~$ gcc prac_6b.c
+haima_haasini@Haasini:~$ ./a.out
+Process ID = 706
+Running
+Running
+Running
+Running
+^CSignal received
+haima_haasini@Haasini:~$
