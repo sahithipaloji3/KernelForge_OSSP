@@ -1,1 +1,60 @@
+a.
+#include <stdio.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <sys/stat.h>
+#include <sys/wait.h>
+int main()
+{
+int fd1, fd2;
+char msg[100];
+char response[30]="Message processed";
+mkfifo("fifo1", 0666);
+mkfifo("fifo2", 0666);
+if(fork()==0)
+{
+printf("enter message: ");
+scanf(" %s\n", msg);
+fd1=open("fifo1",O_WRONLY);
+write(fd1,msg,sizeof(msg));
+close(fd1);
+fd2=open("fifo2",O_RDONLY);
+read(fd2,response,sizeof(response));
+close(fd2);
+printf("server: %s\n", response);
+}
+else
+{
+fd1=open("fifo1", O_RDONLY);
+read(fd1,msg,sizeof(msg));
+close(fd1);
+printf("received: %s\n", msg);
+fd2=open("fifo2", O_WRONLY);
+write(fd2,response,sizeof(response));
+close(fd2);
+wait(NULL);
+}
+}
 
+b.
+#include <stdio.h>
+#include <signal.h>
+#include <unistd.h>
+int stop=0;
+void fun(int sig)
+{ printf("Signal received\n");
+stop=1;
+}
+
+int main()
+{
+ signal(SIGINT, fun);
+signal(SIGTERM, fun);
+ signal(SIGUSR1, fun);
+ printf("Process ID = %d\n", getpid());
+ while(stop==0)
+    {
+ printf("Running\n");
+ sleep(2);
+    }
+}
